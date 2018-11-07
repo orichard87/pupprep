@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp /var/log/maillog > /tmp/rolog.txt
+cp /var/log/maillog  /tmp/rolog.txt
