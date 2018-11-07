@@ -1,6 +1,6 @@
 cron { 'copylog.pp':
 
-	command => 'cp /root/puppet/manifests/copylog.pp /tmp/tempo',
+	command => 'cp /root/puppet/manifests/copylog.pp /tmp',
 	hour    => '*',
 	minute  => '*/2',
 
