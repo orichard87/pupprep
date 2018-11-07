@@ -1,0 +1,4 @@
+package { 'openssh':
+	ensure => installed, 
+
+}

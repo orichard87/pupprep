@@ -1,4 +1,3 @@
-file { '/tmp/README.md':
-	source => 'https://raww.githubusercontent.com/puppetlabs/puppet/master/README.MD',
-
+file { '/tmp/ABOUT.txt':
+	source => 'https://raw.githubusercontent.com/puppetlabs/puppet/master/README.md',
 }
